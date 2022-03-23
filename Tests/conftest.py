@@ -9,11 +9,11 @@ from Pages.Utilities import BaseUtilitis
 @pytest.fixture(scope="session")
 def BaseTest(browser):
     # s = Service('./Drivers/chromedriver.exe')
-    # BaseUtilitis.driver = webdriver.Remote(
-    #     command_executor="http://127.0.0.1:4444",
-    #     desired_capabilities={"browserName": f"{browser}",
-    #                           "video": "True"})
-    BaseUtilitis.driver = webdriver.Chrome("C:\\Users\\tkhvn\\PycharmProjects\\projectAutomation2\\Drivers\\chromedriver.exe")
+    BaseUtilitis.driver = webdriver.Remote(
+        command_executor="http://127.0.0.1:4444",
+        desired_capabilities={"browserName": f"{browser}",
+                              "video": "True"})
+    # BaseUtilitis.driver = webdriver.Chrome("C:\\Users\\tkhvn\\PycharmProjects\\projectAutomation2\\Drivers\\chromedriver.exe")
     # BaseUtilitis.driver = webdriver.Chrome(service=s)
 
     BaseUtilitis.driver.get("https://www.saucedemo.com/")
