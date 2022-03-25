@@ -14,7 +14,7 @@ pizza = Pizza()
 
 @pizza
 def cheese():
-    return "cheese"
+    return "chee2se"
 
 
 @pizza
