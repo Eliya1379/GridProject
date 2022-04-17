@@ -7,7 +7,7 @@ from Pages.Utilities import BaseUtilitis
 
 
 @pytest.fixture(scope="session")
-def BaseTest(browser):
+def BaseTest(browser= "chrome"):
     # s = Service('./Drivers/chromedriver.exe')
     BaseUtilitis.driver = webdriver.Remote(
         command_executor="http://127.0.0.1:4444",
