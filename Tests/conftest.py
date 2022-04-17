@@ -1,8 +1,8 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
+
 from Pages.Utilities import BaseUtilitis
 
 
@@ -12,7 +12,7 @@ def BaseTest(browser= "chrome"):
     s = "sdf"
     BaseUtilitis.driver = webdriver.Remote(
         command_executor="http://127.0.0.1:4444",
-        desired_capabilities={"browserName": f"{browser}",
+        desired_capabilities={"browserName": "chrome",
                               "video": "True"})
     # BaseUtilitis.driver = webdriver.Chrome("C:\\Users\\tkhvn\\PycharmProjects\\projectAutomation2\\Drivers\\chromedriver.exe")
     # BaseUtilitis.driver = webdriver.Chrome(service=s)
