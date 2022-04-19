@@ -1,6 +1,5 @@
 import re
 
-from Pages import ItemsPage
 from Pages.Utilities import BaseUtilitis
 from selenium.webdriver.support import expected_conditions as EC
 
