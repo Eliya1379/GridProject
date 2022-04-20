@@ -1,5 +1,5 @@
 allure-pytest==2.9.43
-allure-python-commons==2.9.43
+allure-python-commons==1.8
 async-generator==1.10
 atomicwrites==1.4.0
 attrs==21.4.0
