@@ -14,7 +14,8 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-a ="from git web"
+a =  "from git web"
 b = "from git web site"
+b = "from my git web 2"
 c = "from my git code"
 d = "my final code"
