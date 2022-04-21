@@ -18,6 +18,7 @@ def BaseTest(browser= "chrome"):
     # BaseUtilitis.driver = webdriver.Chrome(service=s)
 
     txt = 'my new update'
+    sd = "Fd"
     BaseUtilitis.driver.get("https://www.saucedemo.com/")
     BaseUtilitis.wait = WebDriverWait(BaseUtilitis.driver, 30)
     BaseUtilitis.action = ActionChains(BaseUtilitis.driver)
