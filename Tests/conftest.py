@@ -17,6 +17,7 @@ def BaseTest(browser= "chrome"):
     # BaseUtilitis.driver = webdriver.Chrome("C:\\Users\\tkhvn\\PycharmProjects\\projectAutomation2\\Drivers\\chromedriver.exe")
     # BaseUtilitis.driver = webdriver.Chrome(service=s)
 
+    txt = 'my new update'
     BaseUtilitis.driver.get("https://www.saucedemo.com/")
     BaseUtilitis.wait = WebDriverWait(BaseUtilitis.driver, 30)
     BaseUtilitis.action = ActionChains(BaseUtilitis.driver)
